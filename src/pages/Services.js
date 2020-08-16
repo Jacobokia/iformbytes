@@ -1,17 +1,11 @@
 import React from "react";
 
-import Image from '../assets/image1.jpeg'
+import Service from "../components/services/Services";
 
 export default function Services() {
   return (
-    <div className="services">
-        <div>
-    <img src={Image} alt="background pic"/>
-        </div>
-        <div>
-
-        </div>
-     
+    <div>
+      <Service />
     </div>
   );
 }
