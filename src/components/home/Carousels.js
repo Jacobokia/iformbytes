@@ -7,14 +7,18 @@ function Carousels() {
     <div>
       <Carousel>
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} src={Imgs} />
+          <img style={{ width: "100%", height: "200px" }} alt="home" src={Imgs} />
           <Carousel.Caption>
             <h3>IformByte</h3>
             <p>Come back again for better registration websites.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} src={Imgs} />
+          <img
+            style={{ width: "100%", height: "200px" }}
+            alt="Kenneth"
+            src={Imgs}
+          />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
@@ -23,7 +27,11 @@ function Carousels() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} src={Imgs} />
+          <img
+            style={{ width: "100%", height: "200px" }}
+            alt="Men"
+            src={Imgs}
+          />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
@@ -32,7 +40,7 @@ function Carousels() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} src={Imgs} />
+          <img style={{ width: "100%", height: "200px" }} alt="carousel" src={Imgs} />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
@@ -40,7 +48,7 @@ function Carousels() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} src={Imgs} />
+          <img style={{ width: "100%", height: "200px" }} alt="text" src={Imgs} />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
@@ -48,7 +56,7 @@ function Carousels() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} src={Imgs} />
+          <img style={{ width: "100%", height: "200px" }} alt="good" src={Imgs} />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
