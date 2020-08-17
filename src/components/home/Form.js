@@ -162,12 +162,12 @@ export default class Form extends React.Component {
               <textarea
                 placeholder="Your reason for coming"
                 rows={5}
-                cols={51}
+                cols={53}
                 value={textareaValue}
                 onChange={this.textareaValueHandle}
               ></textarea>
             </label>
-            <input style={{width:"81%"}} className="btnTxt" type="submit" value="Submit" />
+            <input style={{width:"83.4%"}} className="btnTxt" type="submit" value="Submit" />
           </form>
         </div>
       </div>
