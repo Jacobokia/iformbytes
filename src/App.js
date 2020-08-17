@@ -7,6 +7,7 @@ import Register from "../src/pages/Register";
 import Login from "../src/pages/Login";
 import Error from "../src/pages/Error";
 import Navbar from "../src/navbar/NavBar";
+import Footer from "./footer/Footer"
 
 import { Route, Switch } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/login" component={Login} />
         <Route component={Error} />
       </Switch>
+      <Footer/>
     </>
   );
 }
