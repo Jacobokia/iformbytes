@@ -1,12 +1,12 @@
 import React from "react";
-import Carousel from "../components/home/Carousel";
+import Carousel from "../components/home/Carousels";
 import HomeForm from "../components/home/Form";
 
 export default function Home() {
   return (
     <div>
-      <Carousel />
       <HomeForm />
+      <Carousel />
     </div>
   );
 }
