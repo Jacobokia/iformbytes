@@ -58,11 +58,6 @@ function Carousels() {
       </Carousel>
       <p>Footer Here</p>
       <p>Footer Here</p>
-      <p>Footer Here</p>
-      <p>Footer Here</p>
-      <p>Footer Here</p>
-      <p>Footer Here</p>
-      <p>Footer Here</p>
     </div>
   );
 }

@@ -167,7 +167,7 @@ export default class Form extends React.Component {
                 onChange={this.textareaValueHandle}
               ></textarea>
             </label>
-            <input className="btnTxt" type="submit" value="Submit" />
+            <input style={{width:"74%"}} className="btnTxt" type="submit" value="Submit" />
           </form>
         </div>
       </div>
