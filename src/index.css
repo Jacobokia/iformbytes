@@ -13,7 +13,6 @@ body {
   margin-top: 5%;
 }
 .homeDiv {
-  /* margin-top: 6%; */
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -24,10 +23,12 @@ body {
   width: 45%;
   text-align: center;
   padding: 5px;
+  margin-top: 7%;
 }
 .secondDiv {
   margin: 10px;
   width: 55%;
+  margin-top: 7%;
 }
 
 form {
