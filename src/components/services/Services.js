@@ -38,9 +38,9 @@ export default function Services() {
   };
   return (
     <div className="">
-      <div className="services">
-        <p className="p-services">Services</p>
-        <p className="p-services">We can serve you better</p>
+      <div className="service">
+        <p>Services</p>
+        <p>We can serve you better</p>
       </div>
 
       <div className="grid">{cardInfo.map(renderCard)}</div>
