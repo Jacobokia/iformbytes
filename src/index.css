@@ -175,12 +175,10 @@ button {
   }
 }
 
-.good {
-  margin-top: 7%;
-}
+
 
 /* PROJECTS */
-.projectDiv {
+.projects {
   margin-top: 7%;
   background-image: url("../src/assets/money.jpeg");
   background-repeat: no-repeat;
