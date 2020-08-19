@@ -4,22 +4,22 @@ import { Card } from "react-bootstrap";
 export default function Services() {
   const cardInfo = [
     {
-      image: "https://picsum.photos/1280/520",
+     number: 1,
       title: "Title 1",
       text: "text for image 1",
     },
     {
-      image: "https://picsum.photos/1280/510",
+     number: 2,
       title: "title 2",
       text: "text for image 2",
     },
     {
-      image: "https://picsum.photos/1280/520",
+      number: 3,
       title: "title 3",
       text: "text for image 3",
     },
     {
-      image: "https://picsum.photos/1280/520",
+      number : 4,
       title: " title 4",
       text: "text for image 4",
     },
@@ -28,7 +28,7 @@ export default function Services() {
   const renderCard = (card, index) => {
     return (
       <Card style={{ width: "18rem" }} key={index} className="box">
-        <Card.Img style={{ width: "18rem" }} variant="top" src={card.image} />
+        <Card src={card.number} />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.text}</Card.Text>
@@ -39,8 +39,8 @@ export default function Services() {
   return (
     <div className="">
       <div className="services">
-        <p>Services</p>
-        <p>We can serve you better</p>
+        <p className="p-services">Services</p>
+        <p className="p-services">We can serve you better</p>
       </div>
 
       <div className="grid">{cardInfo.map(renderCard)}</div>
