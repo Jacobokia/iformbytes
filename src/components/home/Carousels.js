@@ -64,8 +64,7 @@ function Carousels() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <p>Footer Here</p>
-      <p>Footer Here</p>
+     
     </div>
   );
 }
