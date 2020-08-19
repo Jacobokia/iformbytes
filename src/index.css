@@ -180,3 +180,20 @@ button {
     height: 120px;
   }
 }
+
+/* services*/
+.services {
+  margin-top: 0%;
+  width: 100%;
+  height: 300px;
+  background-image: url("assets/image1.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box {
+  border-width: 2px;
+  background-color: blue;
+  display: inline-block;
+  margin: 15px;
+}

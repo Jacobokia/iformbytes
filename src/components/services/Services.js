@@ -37,12 +37,12 @@ export default function Services() {
     );
   };
   return (
-    <div>
+    <div className="">
       <div className="services">
         <p>Services</p>
         <p>We can serve you better</p>
       </div>
-      <p>bdbdvdbvvdbdd</p>
+
       <div className="grid">{cardInfo.map(renderCard)}</div>
     </div>
   );
