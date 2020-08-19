@@ -1,58 +1,32 @@
 import React from "react";
+import {MDBFooter,MDBContainer,MDBRow, MDBCol} from 'mdbreact'
 
 function Footer() {
   return (
-    <div className="main-footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <h4>Contact us</h4>
-            <ul className="list-unstyled">
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-            </ul>
-          </div>
-
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <h4>Contact us</h4>
-            <ul className="list-unstyled">
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-            </ul>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <h4>Contact us</h4>
-            <ul className="list-unstyled">
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-              <li>lorem ipsum</li>
-            </ul>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <h2> Follow us</h2>
-            <p>Please follow us on our Social Media Profile to keep updated.</p>
-           
-              <a href="https://www.facebook.com/cobs.okia" ><i class="fa fa-facebook"></i></a>
-             <a href="https://www.facebook.com/cobs.okia" ><i class="fa fa-twitter"></i></a>
-              <a href="https://www.facebook.com/cobs.okia"><i class="fa fa-instagram" ></i></a>
-              <a href="https://www.linkedin.com/in/jacob-okia-1ba0b8117/"><i class="fa fa-linkedin"></i>linkedin</a>
-           
-          </div>
-        </div>
-
-        <div className="footer-bottom">
-            <p className="text-xs-center">
-                &copy;{new Date().getFullYear()} Mushi Concepts. All rights reserved.
-            </p>
-
-        </div>
+    <div style={{ backgroundColor: "#D0D3D4", height: "40%" }}>
+    <MDBFooter className="font-small pt-4 mt-4 ">
+      <MDBContainer fluid className="text-center text-md-left">
+        <MDBRow>
+          <MDBCol md="6">
+            <h5 className="title">About Bytehiveguru</h5>
+            <p>Bytehiveguru content here, contact, phone</p>
+          </MDBCol>
+          <MDBCol md="6">
+            <h5 className="title">Our contacts and location</h5>
+            <p>Plot 3309 Koro road. Located opposite old Kabaka's palace</p>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+      <div className="footer-copyright text-center py-3">
+        <MDBContainer fluid>
+          &copy; {new Date().getFullYear()} Copyright: Iformbyte.com
+        </MDBContainer>
       </div>
-    </div>
+    </MDBFooter>
+  </div>
+     
+
+        
   );
 }
 export default Footer;
