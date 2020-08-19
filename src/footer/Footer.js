@@ -19,7 +19,7 @@ function Footer() {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: Iformbyte.com
+          &copy; Mushi Concepts {new Date().getFullYear()} 
         </MDBContainer>
       </div>
     </MDBFooter>
