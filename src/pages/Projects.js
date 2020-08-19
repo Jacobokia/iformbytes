@@ -1,9 +1,10 @@
 import React from "react";
+import Project from "../components/project/Project";
 
 export default function Projects() {
   return (
     <div>
-      <p>Projects</p>
+      <Project />
     </div>
   );
 }

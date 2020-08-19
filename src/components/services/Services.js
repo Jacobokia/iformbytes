@@ -38,7 +38,7 @@ export default function Services() {
   };
   return (
     <div className="">
-      <div className="services">
+      <div className="service">
         <p>Services</p>
         <p>We can serve you better</p>
       </div>
