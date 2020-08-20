@@ -196,13 +196,28 @@ button {
 }
 @media screen and (max-width: 700px){
   .firstDiv {
-    margin-top: 50%;
+    margin-top: 63%;
   }
   .secondDiv {
-    margin-top: 50%;
+    margin-top: 63%;
   }
 }
-
+@media screen and (max-width: 337px) {
+  .firstDiv {
+    margin-top: 58%;  
+  }
+  .secondDiv {
+    margin-top: 18%;
+  }
+}
+@media screen and (max-width: 337px) {
+  .firstDiv {
+    margin-top: 100%;  
+  }
+  .secondDiv {
+    margin-top: 100%;
+  }
+}
 /* PROJECTS */
 .projects {
   margin-top: 7%;
@@ -216,7 +231,7 @@ button {
 }
 /* services*/
 .services {
-  margin-top: 0%;
+  margin-top: 10%;
   width: 100%;
   height: 300px;
   background-image: url("assets/image1.jpeg");
