@@ -6,28 +6,28 @@ export default function Services() {
     {
 
       // image: "https://picsum.photos/1280/520",
-      number:1,
+      
       title: "01",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
     },
     {
       // image: "https://picsum.photos/1280/510",
-      number: 2,
+      
       title: "02",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
     },
     {
       // image: "https://picsum.photos/1280/520",
-      number: 3,
+      
       title: "03",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
     },
     {
       // image: "https://picsum.photos/1280/520",
-      number: 4,
+      
       title: "04",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
@@ -56,11 +56,12 @@ export default function Services() {
           <Card.Text style={{ textAlign: "center" }}>{card.text}</Card.Text>
         </Card.Body>
       </Card>
+      </Card>
     );
   };
   return (
     <div style={{ flexDirection:"row"}}>
-      <div className="service">
+      <div className="services">
         <p>Services</p>
         <p>We can serve you better</p>
       </div>
