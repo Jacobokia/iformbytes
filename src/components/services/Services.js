@@ -4,9 +4,8 @@ import { Card } from "react-bootstrap";
 export default function Services() {
   const cardInfo = [
     {
-
       // image: "https://picsum.photos/1280/520",
-      number:1,
+      number: 1,
       title: "01",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
@@ -31,15 +30,11 @@ export default function Services() {
       title: "04",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
-
-     
-
     },
   ];
 
   const renderCard = (card, index) => {
     return (
-
       <Card
         style={{ width: "18rem", marginTop: "7%" }}
         key={index}
@@ -47,7 +42,7 @@ export default function Services() {
       >
         {/* <Card.Img style={{ width: "18rem" }} variant="top" src={card.image} /> */}
 
-      <Card style={{ width: "18rem" }} key={index} className="box">
+        <Card style={{ width: "18rem" }} key={index} className="box" />
         <Card src={card.number} />
 
         <Card.Body>
@@ -58,8 +53,9 @@ export default function Services() {
       </Card>
     );
   };
+
   return (
-    <div style={{ flexDirection:"row"}}>
+    <div style={{ flexDirection: "row" }}>
       <div className="service">
         <p>Services</p>
         <p>We can serve you better</p>
