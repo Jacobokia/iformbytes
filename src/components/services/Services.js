@@ -4,29 +4,21 @@ import { Card } from "react-bootstrap";
 export default function Services() {
   const cardInfo = [
     {
-      // image: "https://picsum.photos/1280/520",
-      number: 1,
       title: "01",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
     },
     {
-      // image: "https://picsum.photos/1280/510",
-
       title: "02",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
     },
     {
-      // image: "https://picsum.photos/1280/520",
-
       title: "03",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
     },
     {
-      // image: "https://picsum.photos/1280/520",
-
       title: "04",
       text:
         "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
@@ -36,8 +28,6 @@ export default function Services() {
   const renderCard = (card, index) => {
     return (
       <Card style={{ width: "18rem" }} key={index} className="box">
-        {/* <Card.Img style={{ width: "18rem" }} variant="top" src={card.image} /> */}
-
         <Card style={{ width: "18rem" }} key={index} />
         <Card src={card.number} />
 
@@ -64,7 +54,19 @@ export default function Services() {
           IformByte or Bytehiveguru offers cool services
         </p>
       </div>
-      <div className="grid">{cardInfo.map(renderCard)}</div>
+      <div className="serve">
+        <p style={{ color: "yellow", textAlign: "center" }}>Services</p>
+        <p style={{ color: "yellow", textAlign: "center" }}>
+          We can serve you better
+        </p>
+      </div>
+      <div className="serve">
+        <p style={{ color: "yellow", textAlign: "center" }}>Services</p>
+        <p style={{ color: "yellow", textAlign: "center" }}>
+          We can serve you better
+        </p>
+      </div>
+      {/* <div className="grid">{cardInfo.map(renderCard)}</div> */}
     </div>
   );
 }
