@@ -237,6 +237,13 @@ button {
   background-attachment: fixed;
   margin-top: 6%;
 }
+.serve {
+  margin-top: 10%;
+  width: 100%;
+  height: 250px;
+  background-color: teal;
+  margin-top: 6%;
+}
 .box {
   border-width: 2px;
   display: inline-block;
