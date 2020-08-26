@@ -1,44 +1,14 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+// import {
+//   Button,
+//   CardActions,
+//   CardContent,
+//   Card,
+//   Typography,
+// } from "@material-ui/core/";
+// import { makeStyles } from "@material-ui/core/styles";
 
 export default function Services() {
-  const cardInfo = [
-    {
-      title: "01",
-      text:
-        "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
-    },
-    {
-      title: "02",
-      text:
-        "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
-    },
-    {
-      title: "03",
-      text:
-        "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
-    },
-    {
-      title: "04",
-      text:
-        "I enjoy taking on challenges and engaging with the resources around me and the provision of solutions and sharing with my teammates",
-    },
-  ];
-
-  const renderCard = (card, index) => {
-    return (
-      <Card style={{ width: "18rem" }} key={index} className="box">
-        <Card style={{ width: "18rem" }} key={index} />
-        <Card src={card.number} />
-
-        <Card.Body>
-          <Card.Title style={{ textAlign: "center" }}>{card.title}</Card.Title>
-          <Card.Text style={{ textAlign: "center" }}>{card.text}</Card.Text>
-        </Card.Body>
-      </Card>
-    );
-  };
-
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <div className="services">
@@ -66,7 +36,6 @@ export default function Services() {
           We can serve you better
         </p>
       </div>
-      {/* <div className="grid">{cardInfo.map(renderCard)}</div> */}
     </div>
   );
 }
