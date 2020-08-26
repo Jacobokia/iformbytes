@@ -13,19 +13,18 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  /* background-color: tomato; */
 }
 .firstDiv {
   background-color: #ffffff;
   width: 45%;
   text-align: center;
   padding: 5px;
-  margin-top: 7.5%;
+  margin-top: 6%;
 }
 .secondDiv {
   margin: 10px;
   width: 55%;
-  margin-top: 7.5%;
+  margin-top: 6%;
 }
 
 form {
@@ -85,7 +84,7 @@ textarea {
 
 li {
   display: inline-block;
-  line-height: 80px;
+  line-height: 70px;
   margin: 0 5px;
   text-decoration: none;
 }
@@ -145,10 +144,10 @@ button {
 
 @media screen and (max-width: 900px) {
   .firstDiv {
-    margin-top: 12%;
+    margin-top: 10%;
   }
   .secondDiv {
-    margin-top: 12%;
+    margin-top: 10%;
   }
 }
 
@@ -187,37 +186,35 @@ button {
   .show-nav {
     height: 120px;
   }
+}
+@media screen and (max-width: 700px) {
   .firstDiv {
-    margin-top: 20%;
+    margin-top: 58%;
   }
   .secondDiv {
-    margin-top: 20%;
+    margin-top: 58%;
   }
 }
-@media screen and (max-width: 700px){
-  .firstDiv {
-    margin-top: 63%;
-  }
-  .secondDiv {
-    margin-top: 63%;
+
+@media screen and (max-width: 400px) {
+  .navBar {
+    position: fixed;
+    height: 200px;
   }
 }
 @media screen and (max-width: 337px) {
   .firstDiv {
-    margin-top: 58%;  
+    margin-top: 58%;
   }
   .secondDiv {
     margin-top: 18%;
   }
-}
-@media screen and (max-width: 337px) {
-  .firstDiv {
-    margin-top: 100%;  
-  }
-  .secondDiv {
-    margin-top: 100%;
+  .navBar {
+    position: fixed;
+    height: 100px;
   }
 }
+
 /* PROJECTS */
 .projects {
   margin-top: 7%;
@@ -246,7 +243,7 @@ button {
   margin: 15px;
 }
 
-p-services{
+p-services {
   color: red;
   margin-top: 40%;
 }
