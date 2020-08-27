@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import Imgs from "../../assets/image1.jpeg";
+import Imgs from "../../assets/image3.jpg";
+import img from "../../assets/image4.jpg"
 
 function Carousels() {
   return (
@@ -15,9 +16,9 @@ function Carousels() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ width: "100%", height: "200px" }}
+            style={{ width: "100%", height: "300px" }}
             alt="Kenneth"
-            src={Imgs}
+            src={img}
           />
 
           <Carousel.Caption>
@@ -28,9 +29,9 @@ function Carousels() {
 
         <Carousel.Item>
           <img
-            style={{ width: "100%", height: "200px" }}
+            style={{ width: "100%", height: "300px" }}
             alt="Men"
-            src={Imgs}
+            src={img}
           />
 
           <Carousel.Caption>
@@ -40,7 +41,7 @@ function Carousels() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} alt="carousel" src={Imgs} />
+          <img style={{ width: "100%", height: "300px" }} alt="carousel" src={Imgs} />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
@@ -48,7 +49,7 @@ function Carousels() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} alt="text" src={Imgs} />
+          <img style={{ width: "100%", height: "300px" }} alt="text" src={Imgs} />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
@@ -56,7 +57,7 @@ function Carousels() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ width: "100%", height: "200px" }} alt="good" src={Imgs} />
+          <img style={{ width: "100%", height: "300px" }} alt="good" src={img} />
 
           <Carousel.Caption>
             <h3>IformByte</h3>
