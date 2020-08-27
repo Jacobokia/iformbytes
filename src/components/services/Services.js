@@ -61,7 +61,7 @@ export default function Services() {
   };
   return (
     <div style={{ flexDirection:"row"}}>
-      <div className="services">
+      <div className="service">
         <p>Services</p>
         <p>We can serve you better</p>
       </div>
