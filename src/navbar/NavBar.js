@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+// import { FaAlignRight } from "react-icons/fa";
 export default class NavBar extends Component {
   constructor(props) {
     super(props);
@@ -14,7 +15,10 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className="navBar">
-        <ul className={this.state.toggle ? "nav-links show-nav" : "nav-links"}>
+        {/* <button onClick={this.Toggle}>
+          <FaAlignRight />
+        </button> */}
+        <ul className={this.state.toggle ? "links show-nav" : "links"}>
           <li>
             <Link to="/">Home</Link>
           </li>

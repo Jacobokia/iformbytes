@@ -72,7 +72,7 @@ export default class Form extends React.Component {
     } = this.state;
     return (
       <div className="homeDiv">
-        <div className="firstDiv">
+        {/* <div className="firstDiv">
           This is home react-router-bootstrap – Integration with React Router
           Awesome React Bootstrap Components - Additional components like
           off-canvas navbar, switch and sliders. Local setup Yarn is our package
@@ -82,7 +82,7 @@ export default class Form extends React.Component {
           tests once with yarn test (Or run them in watch mode with yarn run
           tdd). Start a local copy of the docs site with yarn start Or build a
           local copy of the library with yarn run build CodeSandbox Examples
-        </div>
+        </div> */}
         <div className="secondDiv">
           <form action method>
             <p>IformByte form</p>
