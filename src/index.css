@@ -169,14 +169,12 @@ button {
 
 @media screen and (max-width: 700px) {
   .secondDiv {
-    margin-top:52%;
-  }
-}
+    margin-top: 38%;
+    position: static;
 
-@media screen and (max-width: 400px) {
-  .navBar {
-    position: fixed;
-    height: 200px;
+  }
+  .navBar{
+    height: 160px;
   }
 }
 
