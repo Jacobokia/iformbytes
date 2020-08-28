@@ -87,28 +87,22 @@ export default class Form extends React.Component {
           <form action method>
             <p>IformByte form</p>
             <div>
-              <div>
-                <label>
-                  <input
-                    placeholder="First Name"
-                    className="inputs"
-                    type="text"
-                    value={firstName}
-                    onChange={this.firstNameHandle}
-                  />
-                </label>
-                <label className="common">
-                  <input
-                    placeholder="Last Name"
-                    className="inputs"
-                    type="text"
-                    value={lastName}
-                    onChange={this.lastNameHandle}
-                  />
-                </label>
+              <div style={{flexDirection:"row"}}>
+                <input
+                  placeholder="First Name"
+                  className="inputs"
+                  type="text"
+                  value={firstName}
+                  onChange={this.firstNameHandle}
+                />
+                <input
+                  placeholder="Last Name"
+                  className="inputs"
+                  type="text"
+                  value={lastName}
+                  onChange={this.lastNameHandle}
+                />
               </div>
-            </div>
-            <label>
               <input
                 placeholder="Email"
                 type="email"
@@ -116,8 +110,6 @@ export default class Form extends React.Component {
                 value={email}
                 onChange={this.emailHandle}
               />
-            </label>
-            <label className="common">
               <input
                 placeholder="Phone"
                 className="inputs"
@@ -125,8 +117,6 @@ export default class Form extends React.Component {
                 value={phone}
                 onChange={this.phoneHandle}
               />
-            </label>
-            <label>
               <input
                 placeholder="Country"
                 className="inputs"
@@ -134,8 +124,6 @@ export default class Form extends React.Component {
                 value={country}
                 onChange={this.countryHandle}
               />
-            </label>
-            <label className="common">
               <input
                 placeholder="Physical Address"
                 className="inputs"
@@ -143,31 +131,25 @@ export default class Form extends React.Component {
                 value={address}
                 onChange={this.addressHandle}
               />
-            </label>
-            <div>
-              <label>
-                <select
-                  className="btnTxt"
-                  defaultValue="Select Gender"
-                  onChange={this.genderHandle}
-                  value={gender}
-                >
-                  <option defaultValue>Select Gender</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                </select>
-              </label>
-            </div>
-            <label>
+              <select
+                className="btnTxt"
+                defaultValue="Select Gender"
+                onChange={this.genderHandle}
+                value={gender}
+              >
+                <option defaultValue>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
               <textarea
                 placeholder="Your reason for coming"
                 rows={5}
-                cols={53}
+                // cols={0}
                 value={textareaValue}
                 onChange={this.textareaValueHandle}
               ></textarea>
-            </label>
-            <input style={{width:"83.4%"}} className="btnTxt" type="submit" value="Submit" />
+              <input className="btnTxt" type="submit" value="Submit" />
+            </div>
           </form>
         </div>
       </div>
