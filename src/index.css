@@ -11,16 +11,7 @@ body {
 /* Home */
 .homeDiv {
   display: flex;
-  /* width: 100%; */
-  /* justify-content: space-evenly; */
 }
-/* .firstDiv {
-  background-color: #ffffff;
-  width: 45%;
-  text-align: center;
-  padding: 5px;
-  margin-top: 6%;
-} */
 .secondDiv {
   margin: 10px;
   width: 100%;
@@ -136,12 +127,15 @@ button {
   li {
     padding: 10px 0;
     list-style-type: none;
+    /* margin: 0; */
+    line-height: 30px;
   }
 
   .navBar {
-    background-color: #111;
+    /* background-color: #111; */
     padding: 10px;
-    display: inline;
+    /* display: inline; */
+    height: 130px;
   }
 
   button {
@@ -153,6 +147,9 @@ button {
     cursor: pointer;
     outline: none;
     float: right;
+  }
+  .btnTxt {
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -171,11 +168,8 @@ button {
 }
 
 @media screen and (max-width: 700px) {
-  .firstDiv {
-    margin-top: 58%;
-  }
   .secondDiv {
-    margin-top: 58%;
+    margin-top:52%;
   }
 }
 
@@ -183,18 +177,6 @@ button {
   .navBar {
     position: fixed;
     height: 200px;
-  }
-}
-@media screen and (max-width: 337px) {
-  .firstDiv {
-    margin-top: 58%;
-  }
-  .secondDiv {
-    margin-top: 18%;
-  }
-  .navBar {
-    position: fixed;
-    height: 100px;
   }
 }
 
