@@ -11,26 +11,30 @@ body {
 /* Home */
 .homeDiv {
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
+  /* width: 100%; */
+  /* justify-content: space-evenly; */
 }
-.firstDiv {
+/* .firstDiv {
   background-color: #ffffff;
   width: 45%;
   text-align: center;
   padding: 5px;
   margin-top: 6%;
-}
+} */
 .secondDiv {
   margin: 10px;
-  width: 55%;
-  margin-top: 6%;
+  width: 100%;
+  margin: auto;
+  background-color: teal;
 }
 
 form {
   background-color: #d3d3d3;
   padding: 10px;
-  width: 100%;
+  width: 70%;
+  padding: 10px 40px;
+  margin: auto;
+  margin-top: 10%;
 }
 .labels {
   font-size: 17px;
@@ -38,7 +42,7 @@ form {
 input[type="text"] {
   width: 100%;
   padding: 10px 20px;
-  margin: 4px 0;
+  margin: 4px 2px;
   box-sizing: border-box;
   border: none;
   border-radius: 5px;
@@ -46,18 +50,17 @@ input[type="text"] {
 input[type="email"] {
   width: 100%;
   padding: 10px 20px;
-  margin: 8px 0;
+  margin: 4px 2px;
   box-sizing: border-box;
   border: none;
   border-radius: 5px;
 }
 .btnTxt {
-  width: 100%;
+  width: 40%;
   padding: 12px 20px;
   margin: 6px 0;
   box-sizing: border-box;
   border: none;
-  border-radius: 5px;
   border-radius: 5px;
   border-width: 1px;
 }
@@ -71,7 +74,7 @@ input[type="email"] {
 }
 
 textarea {
-  width: 100%;
+  width: 99%;
   padding: 15px 25px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -155,6 +158,15 @@ button {
 @media screen and (min-width: 768px) {
   button {
     display: none;
+  }
+  input[type="text"] {
+    width: 49%;
+  }
+  input[type="email"] {
+    width: 49%;
+  }
+  .btnTxt {
+    width: 30%;
   }
 }
 
